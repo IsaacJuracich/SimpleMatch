@@ -1,7 +1,6 @@
 using System.Collections;
 
-public class MYCLASSNAME : MonoBehaviour {
-class Matcher {
+public class main {
     constructor(startChars, endChars){
         this.startChar = startChars;
         this.endChar = endChars;
