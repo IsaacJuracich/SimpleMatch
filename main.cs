@@ -4,7 +4,7 @@ public class main {
     constructor(startChars, endChars){
         this.startChar = startChars;
         this.endChar = endChars;
-        this.pattern = new RegExp("\${this.startChar}[^\${this.startChar}\${this.endChar}]+\${this.endChar}","g");
+        this.pattern = new RegExp($"\{this.startChar}[^\{this.startChar}\{this.endChar}]+\{this.endChar}","g");
     }
 
     match(string, matched){
